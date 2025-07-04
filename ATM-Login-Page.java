@@ -1,3 +1,21 @@
+// # 🏦 Java ATM Login System
+// A mini project built in Java to simulate a simple ATM login flow with:
+// - Custom Exceptions
+// - BufferedReader and try-with-resources
+// - Nested try-catch for retry logic (3 attempts max)
+// - Clean and readable structure
+
+// ## 💻 Features
+// - 3 login attempts with failure messages
+// - Graceful termination after failed attempts
+// - Uses `BufferedReader` instead of `Scanner` for low-level control
+
+// ## 🚀 Run the Project
+// ```bash
+// javac UpgradeBank.java
+// java UpgradeBank
+
+
 package ExceptionHandling;
 
 import java.io.BufferedReader;
