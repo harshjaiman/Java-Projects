@@ -48,7 +48,7 @@ class ATM {
         if (uid == userID && passwd == password) {
             System.out.println("✅ Congrats! Take your cash 💰");
         } else {
-            InvalidExceptionNew inv = new InvalidExceptionNew("❌ Bhai dobara try kar le!");
+            InvalidExceptionNew inv = new InvalidExceptionNew("❌ Retry once!");
             System.out.println(inv.getMessage());
             throw inv;
         }
@@ -80,7 +80,7 @@ class BankInternational {
                         at.login(br);
                     } catch (InvalidExceptionNew | IOException e3) {
                         System.out.println(e3.getMessage());
-                        System.out.println("🚫 Bhaiya aapka khata yaha nahi hai shayad :)");
+                        System.out.println("🚫 Bro may be you don't have an account here :)");
                         System.exit(0); // exit after third failed attempt
                     }
                 }
